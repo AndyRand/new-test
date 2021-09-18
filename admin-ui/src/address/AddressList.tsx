@@ -28,7 +28,6 @@ export const AddressList = (props: ListProps): React.ReactElement => {
         <DateField source="updatedAt" label="Updated At" />
         <TextField label="First Name" source="firstName" />
         <TextField label="Last Name" source="lastName" />
-        <TextField label="Address 1" source="address_1" />
         <TextField label="Address 2" source="address_2" />
         <TextField label="City" source="city" />
         <TextField label="State" source="state" />
@@ -43,6 +42,7 @@ export const AddressList = (props: ListProps): React.ReactElement => {
         >
           <TextField source={CUSTOMER_TITLE_FIELD} />
         </ReferenceField>
+        <TextField label="Address 1" source="address_1" />
       </Datagrid>
     </List>
   );

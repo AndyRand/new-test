@@ -289,7 +289,6 @@ export class CustomerControllerBase {
         updatedAt: true,
         firstName: true,
         lastName: true,
-        address_1: true,
         address_2: true,
         city: true,
         state: true,
@@ -303,6 +302,8 @@ export class CustomerControllerBase {
             id: true,
           },
         },
+
+        address_1: true,
       },
     });
     return results.map((result) => permission.filter(result));

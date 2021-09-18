@@ -38,7 +38,6 @@ model Address {
   updatedAt  DateTime  @updatedAt
   firstName  String?
   lastName   String?
-  address_1  String?
   address_2  String?
   city       String?
   state      String?
@@ -49,6 +48,7 @@ model Address {
   orders     Order[]
   customer   Customer? @relation(fields: [customerId], references: [id])
   customerId String?
+  address_1  String?
 }
 
 model Product {

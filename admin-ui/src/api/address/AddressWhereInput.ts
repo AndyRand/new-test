@@ -7,7 +7,6 @@ export type AddressWhereInput = {
   id?: StringFilter;
   firstName?: StringNullableFilter;
   lastName?: StringNullableFilter;
-  address_1?: StringNullableFilter;
   address_2?: StringNullableFilter;
   city?: StringNullableFilter;
   state?: StringNullableFilter;
@@ -16,4 +15,5 @@ export type AddressWhereInput = {
   phone?: StringNullableFilter;
   isDefault?: BooleanNullableFilter;
   customer?: CustomerWhereUniqueInput;
+  address_1?: StringNullableFilter;
 };
