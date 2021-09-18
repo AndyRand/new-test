@@ -7,7 +7,6 @@ export type Address = {
   updatedAt: Date;
   firstName: string | null;
   lastName: string | null;
-  address_1: string | null;
   address_2: string | null;
   city: string | null;
   state: string | null;
@@ -17,4 +16,5 @@ export type Address = {
   isDefault: boolean | null;
   orders?: Array<Order>;
   customer?: Customer | null;
+  address_1: string | null;
 };

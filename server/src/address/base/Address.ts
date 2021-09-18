@@ -67,17 +67,6 @@ class Address {
   @Field(() => String, {
     nullable: true,
   })
-  address_1!: string | null;
-
-  @ApiProperty({
-    required: false,
-    type: String,
-  })
-  @IsString()
-  @IsOptional()
-  @Field(() => String, {
-    nullable: true,
-  })
   address_2!: string | null;
 
   @ApiProperty({
@@ -163,5 +152,16 @@ class Address {
   @Type(() => Customer)
   @IsOptional()
   customer?: Customer | null;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  address_1!: string | null;
 }
 export { Address };

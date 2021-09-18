@@ -18,7 +18,6 @@ export const AddressCreate = (props: CreateProps): React.ReactElement => {
       <SimpleForm>
         <TextInput label="First Name" source="firstName" />
         <TextInput label="Last Name" source="lastName" />
-        <TextInput label="Address 1" source="address_1" />
         <TextInput label="Address 2" source="address_2" />
         <TextInput label="City" source="city" />
         <TextInput label="State" source="state" />
@@ -33,6 +32,7 @@ export const AddressCreate = (props: CreateProps): React.ReactElement => {
         >
           <SelectInput optionText={CustomerTitle} />
         </ReferenceInput>
+        <TextInput label="Address 1" source="address_1" />
       </SimpleForm>
     </Create>
   );

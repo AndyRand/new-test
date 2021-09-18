@@ -16,7 +16,6 @@ const CREATE_INPUT = {
   updatedAt: new Date(),
   firstName: "exampleFirstName",
   lastName: "exampleLastName",
-  address_1: "exampleAddress_1",
   address_2: "exampleAddress_2",
   city: "exampleCity",
   state: "exampleState",
@@ -24,6 +23,7 @@ const CREATE_INPUT = {
   zip: "exampleZip",
   phone: "examplePhone",
   isDefault: "true",
+  address_1: "exampleAddress_1",
 };
 const CREATE_RESULT = {
   id: "exampleId",
@@ -31,7 +31,6 @@ const CREATE_RESULT = {
   updatedAt: new Date(),
   firstName: "exampleFirstName",
   lastName: "exampleLastName",
-  address_1: "exampleAddress_1",
   address_2: "exampleAddress_2",
   city: "exampleCity",
   state: "exampleState",
@@ -39,6 +38,7 @@ const CREATE_RESULT = {
   zip: "exampleZip",
   phone: "examplePhone",
   isDefault: "true",
+  address_1: "exampleAddress_1",
 };
 const FIND_MANY_RESULT = [
   {
@@ -47,7 +47,6 @@ const FIND_MANY_RESULT = [
     updatedAt: new Date(),
     firstName: "exampleFirstName",
     lastName: "exampleLastName",
-    address_1: "exampleAddress_1",
     address_2: "exampleAddress_2",
     city: "exampleCity",
     state: "exampleState",
@@ -55,6 +54,7 @@ const FIND_MANY_RESULT = [
     zip: "exampleZip",
     phone: "examplePhone",
     isDefault: "true",
+    address_1: "exampleAddress_1",
   },
 ];
 const FIND_ONE_RESULT = {
@@ -63,7 +63,6 @@ const FIND_ONE_RESULT = {
   updatedAt: new Date(),
   firstName: "exampleFirstName",
   lastName: "exampleLastName",
-  address_1: "exampleAddress_1",
   address_2: "exampleAddress_2",
   city: "exampleCity",
   state: "exampleState",
@@ -71,6 +70,7 @@ const FIND_ONE_RESULT = {
   zip: "exampleZip",
   phone: "examplePhone",
   isDefault: "true",
+  address_1: "exampleAddress_1",
 };
 
 const service = {

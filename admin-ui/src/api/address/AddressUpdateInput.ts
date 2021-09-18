@@ -3,7 +3,6 @@ import { CustomerWhereUniqueInput } from "../customer/CustomerWhereUniqueInput";
 export type AddressUpdateInput = {
   firstName?: string | null;
   lastName?: string | null;
-  address_1?: string | null;
   address_2?: string | null;
   city?: string | null;
   state?: string | null;
@@ -12,4 +11,5 @@ export type AddressUpdateInput = {
   phone?: string | null;
   isDefault?: boolean | null;
   customer?: CustomerWhereUniqueInput | null;
+  address_1?: string | null;
 };

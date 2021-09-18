@@ -6,7 +6,6 @@ export type AddressOrderByInput = {
   updatedAt?: SortOrder;
   firstName?: SortOrder;
   lastName?: SortOrder;
-  address_1?: SortOrder;
   address_2?: SortOrder;
   city?: SortOrder;
   state?: SortOrder;
@@ -15,4 +14,5 @@ export type AddressOrderByInput = {
   phone?: SortOrder;
   isDefault?: SortOrder;
   customerId?: SortOrder;
+  address_1?: SortOrder;
 };

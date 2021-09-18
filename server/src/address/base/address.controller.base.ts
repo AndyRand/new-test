@@ -72,7 +72,6 @@ export class AddressControllerBase {
         updatedAt: true,
         firstName: true,
         lastName: true,
-        address_1: true,
         address_2: true,
         city: true,
         state: true,
@@ -86,6 +85,8 @@ export class AddressControllerBase {
             id: true,
           },
         },
+
+        address_1: true,
       },
     });
   }
@@ -125,7 +126,6 @@ export class AddressControllerBase {
         updatedAt: true,
         firstName: true,
         lastName: true,
-        address_1: true,
         address_2: true,
         city: true,
         state: true,
@@ -139,6 +139,8 @@ export class AddressControllerBase {
             id: true,
           },
         },
+
+        address_1: true,
       },
     });
     return results.map((result) => permission.filter(result));
@@ -173,7 +175,6 @@ export class AddressControllerBase {
         updatedAt: true,
         firstName: true,
         lastName: true,
-        address_1: true,
         address_2: true,
         city: true,
         state: true,
@@ -187,6 +188,8 @@ export class AddressControllerBase {
             id: true,
           },
         },
+
+        address_1: true,
       },
     });
     if (result === null) {
@@ -250,7 +253,6 @@ export class AddressControllerBase {
           updatedAt: true,
           firstName: true,
           lastName: true,
-          address_1: true,
           address_2: true,
           city: true,
           state: true,
@@ -264,6 +266,8 @@ export class AddressControllerBase {
               id: true,
             },
           },
+
+          address_1: true,
         },
       });
     } catch (error) {
@@ -299,7 +303,6 @@ export class AddressControllerBase {
           updatedAt: true,
           firstName: true,
           lastName: true,
-          address_1: true,
           address_2: true,
           city: true,
           state: true,
@@ -313,6 +316,8 @@ export class AddressControllerBase {
               id: true,
             },
           },
+
+          address_1: true,
         },
       });
     } catch (error) {
